@@ -26,11 +26,12 @@ function CreatePost() {
     }
 
     const handleChange = (e) => {
-
+        setForm({ ...form, [e.target.name]: e.target.value })
     }
 
     const handleSupriseMe = () => {
-
+        const randomPrompt = getRandomPrompt();
+        setForm({ ...form, prompt: randomPrompt })
     }
 
   return (
