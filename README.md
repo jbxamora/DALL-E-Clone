@@ -1,6 +1,6 @@
 # DALL-E-Clone
 
-DALL-E-Clone is a web application that uses OpenAI's DALL-E API to generate images from textual descriptions.
+This is a web application that uses OpenAI's DALL-E API to generate images from textual descriptions.
 
 ## Table of Contents
 
