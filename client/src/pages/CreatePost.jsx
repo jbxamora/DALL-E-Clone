@@ -30,7 +30,7 @@ const CreatePost = () => {
       try {
         setGeneratingImg(true);
         const response = await fetch(
-          "https://dalle-arbb.onrender.com/api/v1/dalle",
+          "http:localhost:8080/api/v1/dalle",
           {
             method: "POST",
             headers: {
@@ -61,7 +61,7 @@ const CreatePost = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          "https://dalle-arbb.onrender.com/api/v1/post",
+          "http:localhost/api/v1/post",
           {
             method: "POST",
             headers: {
